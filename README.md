@@ -1,14 +1,15 @@
 # Halftone-Training-Batch-June-to-August-2016
 About Halftone : http://www.htd.com.np/
 
-## 1st batch for Advance Java/JavaEE Training [2016 June to August]
+### 1st batch for Advance Java/JavaEE Training [2016 June to August]
 
-Students:
-	- Suraj Gautam
-	- Akash GC
-	- Milan Paudyal
-	- Dinesh Kafle
-	- Prashant Ghaju
+### Name of Students
+
+* [Suraj Gautam]
+* [Akash GC]
+* [Milan Paudyal]
+* [Dinesh Kafle]
+* [Prashant Ghaju]
 	
-Syllabus: https://github.com/training-developerbhuwan/Halftone-Training-Batch-June-to-August-2016/blob/master/HalftonePvt.Ltd.-JavaJavaEE%20Course%20Syllabus.pdf 	
+[Halftone Java/JavaEE Syllabus](https://github.com/training-developerbhuwan/Halftone-Training-Batch-June-to-August-2016/blob/master/HalftonePvt.Ltd.-JavaJavaEE%20Course%20Syllabus.pdf) 	
 
