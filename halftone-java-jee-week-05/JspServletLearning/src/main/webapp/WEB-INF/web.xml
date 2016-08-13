@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <!-- Context Parameters -->
+    
+    <context-param>
+        <param-name>ApplicationName</param-name>
+        <param-value>HalftoneJspServletLearning</param-value>
+    </context-param>
+    
+    <context-param>
+        <param-name>IsValid</param-name>
+        <param-value>YES</param-value>
+    </context-param>
+    
+    <!-- SERVLET DECALARTION -->
+    <servlet>
+        <servlet-name>StudentServlet</servlet-name>
+        <servlet-class>com.developerbhuwan.jspservletlearning.servlet.StudentServlet</servlet-class>
+    </servlet>
+    <!-- SERVLET MAP -->
+    <servlet-mapping>
+        <servlet-name>StudentServlet</servlet-name>
+        <url-pattern>/student</url-pattern>
+    </servlet-mapping>
+    <!-- SERVLET DECALARTION -->
+    <servlet>
+        <servlet-name>LifeCycleServlet</servlet-name>
+        <servlet-class>com.developerbhuwan.jspservletlearning.servlet.LifeCycleOfServlet</servlet-class>
+    </servlet>
+    <!-- SERVLET MAP -->
+    <servlet-mapping>
+        <servlet-name>LifeCycleServlet</servlet-name>
+        <url-pattern>/lifecycle</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <servlet-name>InitializationParameterByXmlServlet</servlet-name>
+        <servlet-class>com.developerbhuwan.jspservletlearning.servlet.InitializationParameterByXmlServlet</servlet-class>
+        <init-param>
+            <param-name>username</param-name>
+            <param-value>apple</param-value>
+        </init-param>
+        <init-param>
+            <param-name>password</param-name>
+            <param-value>p@ssw0rd</param-value>
+        </init-param>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InitializationParameterByXmlServlet</servlet-name>
+        <url-pattern>/initxml</url-pattern>
+    </servlet-mapping>
+    
+    <filter>
+        <filter-name>RequestURLFilter</filter-name>
+        <filter-class>com.developerbhuwan.jspservletlearning.filter.RequestURLFilter</filter-class>
+    </filter>
+    
+    <filter-mapping>
+        <filter-name>RequestURLFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    
+    <welcome-file-list>
+        <welcome-file>welcome.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>
