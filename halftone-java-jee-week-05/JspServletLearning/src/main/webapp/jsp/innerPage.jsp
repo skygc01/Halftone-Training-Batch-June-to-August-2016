@@ -1,0 +1,1 @@
+<h2>I am inner page.</h2>
